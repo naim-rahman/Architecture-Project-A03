@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architecture Website A-03</title>
+    <!-- manrope font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- Awesome font cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- DaisyUI link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- style -->
+    <style>
+        .font-manrope {
+            font-family: "Manrope", serif;
+        }
+    </style>
+    <!-- Custom style -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="font-manrope">
+    <header>
+        <!-- navbar -->
+        <nav class="container mx-auto my-5">
+            <div class="navbar">
+                <div class="navbar-start">
+                    <a class="text-2xl lg:text-3xl font-bold flex justify-center items-center gap-2"><i
+                            class="fa-solid fa-circle-arrow-up rotate-45 bg-black rounded-full text-green-500"></i>Rinterio</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-2">
+                        <li class="font-bold"><a>Home</a></li>
+                        <li><a>Service </a></li>
+                        <li><a>Portfolio</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <div class="hidden md:flex lg:flex justify-center items-center gap-4">
+                        <div>
+                            <i class=" fa-solid fa-magnifying-glass bg-gray-100 rounded-full p-3 text-black"></i>
+                        </div>
+                        <div>
+                            <i class=" fa-solid fa-cart-shopping bg-gray-200 rounded-full p-3 text-black"></i>
+                        </div>
+                        <div>
+                            <button><a class=" btn bg-green-400 rounded-3xl font-semibold text-base">Book Consult<i
+                                        class="fa-solid fa-circle-arrow-up rotate-45 text-2xl"></i></a></button>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost bg-[#F4F4F4] p-2 rounded-full lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-1 w-32 text-center p-4 shadow -left-20 space-y-1">
+                            <li><a>Home</a></li>
+                            <li><a>Service </a></li>
+                            <li><a>Portfolio</a></li>
+                            <li><a>Blog</a></li>
+                            <li><a>Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Banner  -->
+        <div>
+            <div class="container mx-auto my-5 py-10 px-4">
+                <div class="flex justify-center">
+                    <img src="/assets/banner.png">
+                </div>
+                <div class="text-center">
+                    <h1 class="text-3xl lg:text-5xl font-bold capitalize">A barn house of this design has <br> a
+                        striking
+                        appearance</h1>
+                    <p class="py-6 lg:w-1/2 mx-auto">
+                        At Dream Home Builders, we turn your vision into reality. With expert craftsmanship and a
+                        commitment to quality, we build homes that reflect your unique style and stand the test of time.
+                        Discover your dream home with us today.
+                    </p>
+                    <button class="btn rounded-full bg-green-300 text-black">View Details<i
+                            class="fa-solid fa-circle-arrow-up rotate-45 text-2xl"></i></button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+
+    </main>
+    <!-- footer section -->
+    <footer>
+        
+    </footer>
+</body>
+
+</html>
